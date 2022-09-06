@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: mistyrose;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+button {
+  background: rebeccapurple;
+  color: white;
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+}
+
+.modal-wrapper{
+  visibility: hidden;
+  
+}
+

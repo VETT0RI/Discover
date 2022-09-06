@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+P {
+  min-height: 16rem;
+  margin: 32px 16px;
+  position: relative;
+}
+
+p::before{
+  content: "";
+  color: red;
+  font-weight: bold;
+  height: 16px;
+  width: 16px;
+  background-color: red;
+  position: absolute;
+  left: -16px;
+  top: -16px;
+}
+
+
+footer {
+  margin-top: auto;
+  background: gray;
+  color: white;
+  height: 8rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer::after {
+  content: "Juliao";
+}
+

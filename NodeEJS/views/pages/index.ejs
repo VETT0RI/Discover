@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<%- include('../partials/head') %>
+  <html lang="pt">
+    <body class="container">
+      <%- include('../partials/header') %>
+      <main>
+        <div class="jumbotrom">
+          <h1>Node com EJS</h1>
+          <p>Vamos aprender a trabalhhar com arquivos EJS</p>
+        </div>
+        <ul>
+          <% bro.forEach(bro => { %>
+            <li>
+              <strong><%=bro.tittle%></strong> <%=bro.message%>
+            </li>
+          <% }) %>
+          
+        </ul>
+      </main>
+      <%- include('../partials/footer') %>
+    </body>
+  </html>
